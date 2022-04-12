@@ -11,4 +11,8 @@
 
 @interface ASViewController : UIViewController
 
+//@property SKScene *scene;
+//
+//-(void)setCurrentScene:(SKScene*)scene;
+
 @end

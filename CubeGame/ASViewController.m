@@ -7,26 +7,41 @@
 //
 
 #import "ASViewController.h"
-#import "ASMyScene.h"
+#import "ASGameScene.h"
+#import "ASMenuScene.h"
+#import "SKScene+ASOrientation.h"
 
 @implementation ASViewController
 
-- (void)viewDidLoad
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super viewDidLoad];
-
+    [super viewDidAppear:YES];
+    
     // Configure the view.
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
+    //skView.showsFPS = YES;
     skView.showsNodeCount = YES;
+    //skView.showsPhysics = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [ASMyScene sceneWithSize:skView.bounds.size];
+    SKScene *scene = [ASMenuScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
+    
+//    //for detecting orientation changes
+//    [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
+//    [[NSNotificationCenter defaultCenter]
+//     addObserver:self.scene selector:@selector(orientationChanged:)
+//     name:UIDeviceOrientationDidChangeNotification
+//     object:[UIDevice currentDevice]];
     
     // Present the scene.
     [skView presentScene:scene];
 }
+
+//-(void)setCurrentScene:(SKScene *)scene {
+//    
+//    self.scene = scene;
+//}
 
 - (BOOL)shouldAutorotate
 {

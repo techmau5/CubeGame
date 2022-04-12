@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB4B57B219E756FD002AFC85 /* ASBlockSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4B57B119E756FD002AFC85 /* ASBlockSet.m */; };
+		EB54A08A19F20BD10022998C /* ASPauseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EB54A08919F20BD10022998C /* ASPauseMenu.m */; };
+		EB710EFD1A749F8900A4A898 /* DiamondDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB710EFC1A749F8900A4A898 /* DiamondDictionary.plist */; };
+		EB802AC71A32B2FA008213BF /* ASLevelGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = EB802AC61A32B2FA008213BF /* ASLevelGrid.m */; };
+		EB802ACA1A32B362008213BF /* ASBoardNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EB802AC91A32B362008213BF /* ASBoardNode.m */; };
+		EB8DE58D19C668360001040A /* ASBlockNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8DE58C19C668360001040A /* ASBlockNode.m */; };
+		EB9ECDF519FEC70A001EDB5D /* ASLevelSelectionScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9ECDF419FEC70A001EDB5D /* ASLevelSelectionScene.m */; };
+		EBB437581991C361005AA36F /* LevelDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBB437571991C361005AA36F /* LevelDictionary.plist */; };
+		EBB4DE63198D360200206F44 /* ASBlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB4DE62198D360200206F44 /* ASBlockController.m */; };
+		EBB6AAD1198C3C6F0016C4E5 /* ASMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB6AAD0198C3C6F0016C4E5 /* ASMenuScene.m */; };
 		EBB83C7F1985ACDF00E6BF44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB83C7E1985ACDF00E6BF44 /* Foundation.framework */; };
 		EBB83C811985ACDF00E6BF44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB83C801985ACDF00E6BF44 /* CoreGraphics.framework */; };
 		EBB83C831985ACDF00E6BF44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB83C821985ACDF00E6BF44 /* UIKit.framework */; };
@@ -16,14 +26,16 @@
 		EBB83C911985ACDF00E6BF44 /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB83C901985ACDF00E6BF44 /* ASAppDelegate.m */; };
 		EBB83C941985ACDF00E6BF44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB83C921985ACDF00E6BF44 /* Main.storyboard */; };
 		EBB83C971985ACDF00E6BF44 /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB83C961985ACDF00E6BF44 /* ASViewController.m */; };
-		EBB83C9A1985ACDF00E6BF44 /* ASMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB83C991985ACDF00E6BF44 /* ASMyScene.m */; };
-		EBB83C9C1985ACDF00E6BF44 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB83C9B1985ACDF00E6BF44 /* Spaceship.png */; };
+		EBB83C9A1985ACDF00E6BF44 /* ASGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB83C991985ACDF00E6BF44 /* ASGameScene.m */; };
 		EBB83C9E1985ACDF00E6BF44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB83C9D1985ACDF00E6BF44 /* Images.xcassets */; };
 		EBB83CA51985ACDF00E6BF44 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB83CA41985ACDF00E6BF44 /* XCTest.framework */; };
 		EBB83CA61985ACDF00E6BF44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB83C7E1985ACDF00E6BF44 /* Foundation.framework */; };
 		EBB83CA71985ACDF00E6BF44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB83C821985ACDF00E6BF44 /* UIKit.framework */; };
 		EBB83CAF1985ACDF00E6BF44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBB83CAD1985ACDF00E6BF44 /* InfoPlist.strings */; };
 		EBB83CB11985ACDF00E6BF44 /* CubeGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB83CB01985ACDF00E6BF44 /* CubeGameTests.m */; };
+		EBBDDFDE198E8EF200623942 /* ASLevelLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBDDFDD198E8EF200623942 /* ASLevelLoader.m */; };
+		EBF2448419BC0054009D6149 /* ASTipNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF2448319BC0054009D6149 /* ASTipNode.m */; };
+		EBF2448719BC0AF3009D6149 /* ASInfoNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF2448619BC0AF3009D6149 /* ASInfoNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB4B57B019E756FD002AFC85 /* ASBlockSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBlockSet.h; sourceTree = "<group>"; };
+		EB4B57B119E756FD002AFC85 /* ASBlockSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBlockSet.m; sourceTree = "<group>"; };
+		EB54A08819F20BD10022998C /* ASPauseMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPauseMenu.h; sourceTree = "<group>"; };
+		EB54A08919F20BD10022998C /* ASPauseMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPauseMenu.m; sourceTree = "<group>"; };
+		EB710EFC1A749F8900A4A898 /* DiamondDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DiamondDictionary.plist; sourceTree = "<group>"; };
+		EB802AC51A32B2FA008213BF /* ASLevelGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLevelGrid.h; sourceTree = "<group>"; };
+		EB802AC61A32B2FA008213BF /* ASLevelGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASLevelGrid.m; sourceTree = "<group>"; };
+		EB802AC81A32B35C008213BF /* ASBoardNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASBoardNode.h; sourceTree = "<group>"; };
+		EB802AC91A32B362008213BF /* ASBoardNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBoardNode.m; sourceTree = "<group>"; };
+		EB8DE58B19C668360001040A /* ASBlockNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBlockNode.h; sourceTree = "<group>"; };
+		EB8DE58C19C668360001040A /* ASBlockNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBlockNode.m; sourceTree = "<group>"; };
+		EB9ECDF319FEC70A001EDB5D /* ASLevelSelectionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLevelSelectionScene.h; sourceTree = "<group>"; };
+		EB9ECDF419FEC70A001EDB5D /* ASLevelSelectionScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASLevelSelectionScene.m; sourceTree = "<group>"; };
+		EBB437571991C361005AA36F /* LevelDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LevelDictionary.plist; sourceTree = "<group>"; };
+		EBB4DE61198D360200206F44 /* ASBlockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBlockController.h; sourceTree = "<group>"; };
+		EBB4DE62198D360200206F44 /* ASBlockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBlockController.m; sourceTree = "<group>"; };
+		EBB6AACF198C3C6F0016C4E5 /* ASMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMenuScene.h; sourceTree = "<group>"; };
+		EBB6AAD0198C3C6F0016C4E5 /* ASMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMenuScene.m; sourceTree = "<group>"; };
 		EBB83C7B1985ACDF00E6BF44 /* CubeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB83C7E1985ACDF00E6BF44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EBB83C801985ACDF00E6BF44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,15 +81,21 @@
 		EBB83C931985ACDF00E6BF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBB83C951985ACDF00E6BF44 /* ASViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASViewController.h; sourceTree = "<group>"; };
 		EBB83C961985ACDF00E6BF44 /* ASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASViewController.m; sourceTree = "<group>"; };
-		EBB83C981985ACDF00E6BF44 /* ASMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASMyScene.h; sourceTree = "<group>"; };
-		EBB83C991985ACDF00E6BF44 /* ASMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASMyScene.m; sourceTree = "<group>"; };
-		EBB83C9B1985ACDF00E6BF44 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		EBB83C981985ACDF00E6BF44 /* ASGameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASGameScene.h; sourceTree = "<group>"; };
+		EBB83C991985ACDF00E6BF44 /* ASGameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASGameScene.m; sourceTree = "<group>"; };
 		EBB83C9D1985ACDF00E6BF44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EBB83CA31985ACDF00E6BF44 /* CubeGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubeGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB83CA41985ACDF00E6BF44 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EBB83CAC1985ACDF00E6BF44 /* CubeGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CubeGameTests-Info.plist"; sourceTree = "<group>"; };
 		EBB83CAE1985ACDF00E6BF44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBB83CB01985ACDF00E6BF44 /* CubeGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeGameTests.m; sourceTree = "<group>"; };
+		EBB96CA41A101DF6003CB207 /* SKScene+ASOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKScene+ASOrientation.h"; sourceTree = "<group>"; };
+		EBBDDFDC198E8EF200623942 /* ASLevelLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLevelLoader.h; sourceTree = "<group>"; };
+		EBBDDFDD198E8EF200623942 /* ASLevelLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASLevelLoader.m; sourceTree = "<group>"; };
+		EBF2448219BC0054009D6149 /* ASTipNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTipNode.h; sourceTree = "<group>"; };
+		EBF2448319BC0054009D6149 /* ASTipNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTipNode.m; sourceTree = "<group>"; };
+		EBF2448519BC0AF3009D6149 /* ASInfoNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASInfoNode.h; sourceTree = "<group>"; };
+		EBF2448619BC0AF3009D6149 /* ASInfoNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASInfoNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +123,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB802ACB1A32B42B008213BF /* MenuScene + SelectionScene */ = {
+			isa = PBXGroup;
+			children = (
+				EBB6AACF198C3C6F0016C4E5 /* ASMenuScene.h */,
+				EBB6AAD0198C3C6F0016C4E5 /* ASMenuScene.m */,
+				EB9ECDF319FEC70A001EDB5D /* ASLevelSelectionScene.h */,
+				EB9ECDF419FEC70A001EDB5D /* ASLevelSelectionScene.m */,
+				EB802AC51A32B2FA008213BF /* ASLevelGrid.h */,
+				EB802AC61A32B2FA008213BF /* ASLevelGrid.m */,
+			);
+			name = "MenuScene + SelectionScene";
+			sourceTree = "<group>";
+		};
+		EB802ACC1A32B483008213BF /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				EBB83C981985ACDF00E6BF44 /* ASGameScene.h */,
+				EBB83C991985ACDF00E6BF44 /* ASGameScene.m */,
+				EB802AC81A32B35C008213BF /* ASBoardNode.h */,
+				EB802AC91A32B362008213BF /* ASBoardNode.m */,
+				EB54A08819F20BD10022998C /* ASPauseMenu.h */,
+				EB54A08919F20BD10022998C /* ASPauseMenu.m */,
+				EBBDDFDC198E8EF200623942 /* ASLevelLoader.h */,
+				EBBDDFDD198E8EF200623942 /* ASLevelLoader.m */,
+			);
+			name = GameScene;
+			sourceTree = "<group>";
+		};
+		EB802ACD1A32B561008213BF /* BlockCode */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2448519BC0AF3009D6149 /* ASInfoNode.h */,
+				EBF2448619BC0AF3009D6149 /* ASInfoNode.m */,
+				EBF2448219BC0054009D6149 /* ASTipNode.h */,
+				EBF2448319BC0054009D6149 /* ASTipNode.m */,
+				EB8DE58B19C668360001040A /* ASBlockNode.h */,
+				EB8DE58C19C668360001040A /* ASBlockNode.m */,
+				EB4B57B019E756FD002AFC85 /* ASBlockSet.h */,
+				EB4B57B119E756FD002AFC85 /* ASBlockSet.m */,
+				EBB4DE61198D360200206F44 /* ASBlockController.h */,
+				EBB4DE62198D360200206F44 /* ASBlockController.m */,
+			);
+			name = BlockCode;
+			sourceTree = "<group>";
+		};
 		EBB83C721985ACDF00E6BF44 = {
 			isa = PBXGroup;
 			children = (
@@ -121,14 +202,10 @@
 		EBB83C861985ACDF00E6BF44 /* CubeGame */ = {
 			isa = PBXGroup;
 			children = (
-				EBB83C8F1985ACDF00E6BF44 /* ASAppDelegate.h */,
-				EBB83C901985ACDF00E6BF44 /* ASAppDelegate.m */,
-				EBB83C921985ACDF00E6BF44 /* Main.storyboard */,
-				EBB83C951985ACDF00E6BF44 /* ASViewController.h */,
-				EBB83C961985ACDF00E6BF44 /* ASViewController.m */,
-				EBB83C981985ACDF00E6BF44 /* ASMyScene.h */,
-				EBB83C991985ACDF00E6BF44 /* ASMyScene.m */,
-				EBB83C9B1985ACDF00E6BF44 /* Spaceship.png */,
+				EBD6F02319AD8510002F974E /* iPad */,
+				EB802ACB1A32B42B008213BF /* MenuScene + SelectionScene */,
+				EB802ACC1A32B483008213BF /* GameScene */,
+				EB802ACD1A32B561008213BF /* BlockCode */,
 				EBB83C9D1985ACDF00E6BF44 /* Images.xcassets */,
 				EBB83C871985ACDF00E6BF44 /* Supporting Files */,
 			);
@@ -142,6 +219,8 @@
 				EBB83C891985ACDF00E6BF44 /* InfoPlist.strings */,
 				EBB83C8C1985ACDF00E6BF44 /* main.m */,
 				EBB83C8E1985ACDF00E6BF44 /* CubeGame-Prefix.pch */,
+				EBB437571991C361005AA36F /* LevelDictionary.plist */,
+				EB710EFC1A749F8900A4A898 /* DiamondDictionary.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,6 +241,19 @@
 				EBB83CAD1985ACDF00E6BF44 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBD6F02319AD8510002F974E /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				EBB83C8F1985ACDF00E6BF44 /* ASAppDelegate.h */,
+				EBB83C901985ACDF00E6BF44 /* ASAppDelegate.m */,
+				EBB83C921985ACDF00E6BF44 /* Main.storyboard */,
+				EBB83C951985ACDF00E6BF44 /* ASViewController.h */,
+				EBB83C961985ACDF00E6BF44 /* ASViewController.m */,
+				EBB96CA41A101DF6003CB207 /* SKScene+ASOrientation.h */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +304,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = adriansiwy;
 				TargetAttributes = {
+					EBB83C7A1985ACDF00E6BF44 = {
+						DevelopmentTeam = RUPP3498EQ;
+					};
 					EBB83CA21985ACDF00E6BF44 = {
 						TestTargetID = EBB83C7A1985ACDF00E6BF44;
 					};
@@ -222,6 +317,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -242,9 +338,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBB83C8B1985ACDF00E6BF44 /* InfoPlist.strings in Resources */,
+				EBB437581991C361005AA36F /* LevelDictionary.plist in Resources */,
 				EBB83C9E1985ACDF00E6BF44 /* Images.xcassets in Resources */,
-				EBB83C9C1985ACDF00E6BF44 /* Spaceship.png in Resources */,
 				EBB83C941985ACDF00E6BF44 /* Main.storyboard in Resources */,
+				EB710EFD1A749F8900A4A898 /* DiamondDictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +360,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9ECDF519FEC70A001EDB5D /* ASLevelSelectionScene.m in Sources */,
 				EBB83C911985ACDF00E6BF44 /* ASAppDelegate.m in Sources */,
+				EBB4DE63198D360200206F44 /* ASBlockController.m in Sources */,
+				EB4B57B219E756FD002AFC85 /* ASBlockSet.m in Sources */,
 				EBB83C971985ACDF00E6BF44 /* ASViewController.m in Sources */,
-				EBB83C9A1985ACDF00E6BF44 /* ASMyScene.m in Sources */,
+				EBF2448719BC0AF3009D6149 /* ASInfoNode.m in Sources */,
+				EB8DE58D19C668360001040A /* ASBlockNode.m in Sources */,
+				EBB83C9A1985ACDF00E6BF44 /* ASGameScene.m in Sources */,
+				EBB6AAD1198C3C6F0016C4E5 /* ASMenuScene.m in Sources */,
+				EB802ACA1A32B362008213BF /* ASBoardNode.m in Sources */,
+				EB802AC71A32B2FA008213BF /* ASLevelGrid.m in Sources */,
+				EBBDDFDE198E8EF200623942 /* ASLevelLoader.m in Sources */,
 				EBB83C8D1985ACDF00E6BF44 /* main.m in Sources */,
+				EB54A08A19F20BD10022998C /* ASPauseMenu.m in Sources */,
+				EBF2448419BC0054009D6149 /* ASTipNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,11 +499,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RUPP3498EQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CubeGame/CubeGame-Prefix.pch";
 				INFOPLIST_FILE = "CubeGame/CubeGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,11 +519,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RUPP3498EQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CubeGame/CubeGame-Prefix.pch";
 				INFOPLIST_FILE = "CubeGame/CubeGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -473,6 +593,7 @@
 				EBB83CB61985ACDF00E6BF44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBB83CB71985ACDF00E6BF44 /* Build configuration list for PBXNativeTarget "CubeGameTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +602,7 @@
 				EBB83CB91985ACDF00E6BF44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
